@@ -1,0 +1,1 @@
+//havent done any javascript yet, but im planning to incorporate js into my website.
