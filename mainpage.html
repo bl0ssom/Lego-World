@@ -1,3 +1,4 @@
+
         <html>
             <head>
                 <style>
@@ -8,7 +9,7 @@
                         
                     
                     body {
-                        background: url(images/lego.jpeg) no-repeat center center fixed; 
+                        background-color:rgb(165, 194, 145) ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -29,13 +30,13 @@ font-family: "Helvetica Neue";
             font-size: 140%;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             border-radius: 5px;
-            
+            left: 5%;
         }
 
 
         #planes {
            color: black;
-           background-color: rgb(4, 232, 248);
+           background-color: white;
            font-size: 100%;
            font-family: "Helvetica Neue";
            font-weight: bold;
@@ -44,12 +45,15 @@ font-family: "Helvetica Neue";
            padding-top: 10px;
            margin-top: 10px;
            border-radius: 10px;
+           position: absolute;
+           top: 138%;
+           left: 369px;
         }
 
 
         #vehicles {
            color: black;
-           background-color: rgb(8, 219, 78);
+           background-color: rgb(255, 255, 255);
            font-size: 100%;
            font-family: "Helvetica Neue";
            font-weight: bold;
@@ -57,11 +61,14 @@ font-family: "Helvetica Neue";
            border: none;
            margin-bottom: 4px;
            border-radius: 10px;
+           position: absolute;
+           top: 210%;
+           left: 0px;
         }
 
         #robots {
            color: black;
-           background-color: rgb(56, 56, 56);
+           background-color: rgb(255, 255, 255);
            font-size: 100%;
            font-family: "Helvetica Neue";
            font-weight: bold;
@@ -69,12 +76,15 @@ font-family: "Helvetica Neue";
            border: none;
            margin-bottom: 4px;
            border-radius: 10px;
+           top: 282%;
+           position: absolute;
+           left: 15%;
         }
 
 
         #legos {
            color: black;
-           background-color: rgb(199, 19, 19);
+           background-color: rgb(255, 255, 255);
            font-size: 100%;
            font-family: "Helvetica Neue";
            font-weight: bold;
@@ -82,6 +92,9 @@ font-family: "Helvetica Neue";
            border: none;
            margin-bottom: 4px;
            border-radius: 10px;
+           top: 350%;
+           position: absolute;
+           left: 32%;
         }
 
 
@@ -89,23 +102,101 @@ font-family: "Helvetica Neue";
         h2 {
             position: absolute;
             width: 50%;
-            bottom: 0px;
+            top: 360%;
             color: rgb(2, 1, 1);
             font-size: 100%;
-            
+            left: 31%;
         }
 
 
 
         img.resize {
-            width: 1000px;
-            height: 650px;
+            width: 825px;
+            height: 535px;
             left: 22%;
             position: absolute;
             top: 20%;
-            margin-top: 10px;
-            border-radius: 10px
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
         }
+
+        img.resize2 {
+            width: 1600px;
+            height: 750px;
+            left: 0%;
+            position: absolute;
+            top: 100%;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+
+        h3 {
+            position:absolute;
+            top: 130%;
+            font-weight: bold;
+            color: white;
+        }
+
+        h4 {
+            position:absolute;
+            top: 134%;
+            font-weight: bold;
+            color: white;
+        }
+
+        img.resize3 {
+            width: 1000px;
+            height: 500px;
+            position: absolute;
+            top: 200%;
+            left: 20%;
+        }
+
+        h5 {
+            position:absolute;
+            top: 200%;
+            font-weight: bold;
+            color: white;
+            font-size: 125%;
+        }
+
+        h6 {
+            position: absolute;
+            top: 201%;
+            font-weight: bold;
+            color: white;
+            font-size: 125%;
+        }
+
+
+        img.resize4 {
+            width: 350px;
+            position: absolute;
+            top: 290%;
+            left: 50%;
+        }
+
+        img.resize5 {
+            width: 350px;
+            height: 468px;
+            position: absolute;
+            top: 290%;
+            left: 25%;
+        }
+
+        h7 {
+            position: absolute;
+            top: 275%;
+            font-weight: bold;
+            color: white;
+            font-size: 125%;
+            left: 14%;
+        }
+
+        
 
 
         
@@ -134,19 +225,55 @@ font-family: "Helvetica Neue";
                             some of my other hobbies include playing video games, reading, and programming.
                             
                         </p>
-                        <button id="planes" onclick="planes()">Lego Planes I've Built</button>
-                    <button id="vehicles" onclick="vehicles()">Lego Land vehicles I've Built</button>
-                    <button id="robots" onclick="robots()">Lego robots I've Built</button>
+                        
+                    <button id="vehicles" onclick="vehicles()">Lego Planes i've built</button>
+                    
                     <button id="legos" onclick="legos()">Lego sets i've used to build my creations.</button>
                     </div>
 
                     <h2 id="contact"> If you have more questions about me and my creations, you can contact me at zoranpan.sunrise@gmail.com</h2>
-                    <img class="resize" src="images/plane.JPG"
+                    <img class="resize" src="images/plane.jpeg"
                     alt="Firstpla"
                     title="First plane i ever built out of legos after watching a military documentry.">
 
-                    
+                    <img class="resize2" src="images/xwing.JPG"
+                    alt="thingee"
+                    title="hi">
+                    <h3>
+                        This is a fighter jet i made. It was inspired by the X-Wing from Star Wars.
+                    </h3>
+                    <h4>
+                        Check out my other fighter jets with a click of this button ↓
+                    </h4>
 
+                    <button id="planes" onclick="planes()">Lego fighter jets I've Built</button>
+
+
+                    <img class="resize3" src="images/bigplane.JPG"
+                    alt="thingee"
+                    title="hi">
+                    <h5>
+                        Here I have made a commerical plane. I made this after seeing a Boeing 747. 
+                    </h5>
+                    <h6>
+                        Want to see more of my planes? Click the button below ↓.
+                    </h6>
+
+                    <img class="resize4" src="images/smallcar.JPG"
+                    alt="thingee2"
+                    title="smallcar">
+
+
+
+                    <img class="resize5" src="images/gun.JPG"
+                    alt="thingee"
+                    title="hi">
+
+                    <h7>
+                        I have mostly made jets and fighter jets in my time playing with legos. But I have still made other things. You can see 2 of them here. If you want to see the rest of them, click this button.
+                    </h7>
+
+                    <button id="robots" onclick="robots()">Rest of the things i've made.</button>
                     <script src="mainpage.js"></script>
                 </body>
         </html>
